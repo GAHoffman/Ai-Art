@@ -56,7 +56,7 @@ const CreatePost = () => {
           body: JSON.stringify(form),
         });
 
-        await response.JSON();
+        await response.json();
         navigate("/");
       } catch (error) {
         alert(error);
